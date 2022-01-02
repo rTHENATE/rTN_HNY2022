@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=M+PLUS+1+Code&family=Oswald:wght@200;400&family=PT+Sans&family=Permanent+Marker&family=Roboto+Mono&family=Rock+3D&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=M+PLUS+1+Code&family=Oswald:wght@200;400&family=PT+Sans&family=Permanent+Marker&family=Roboto+Mono&family=Rock+3D&family=Shizuru&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(#e66465, #9198e5);
+  cursor: crosshair;
+}
+canvas {
+  display: block;
+}
+h1 {
+  text-align: center;
+  position: absolute;
+  letter-spacing: 20px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(rgb(236, 255, 61), rgb(213, 75, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Permanent Marker", cursive;
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h2 {
+  margin-top: 250px;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 8px;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(rgb(61, 226, 255), rgb(213, 75, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+h3 {
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 18px;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(rgb(4, 71, 255), rgb(255, 66, 66));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Permanent Marker", cursive;
+  font-size: 5em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h4 {
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(rgb(255, 167, 4), rgb(184, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
+  h1,
+  h2 {
+    width: 100%;
+  }
+}
